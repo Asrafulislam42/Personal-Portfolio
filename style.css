@@ -36,3 +36,62 @@ ul a {
 .active {
   color: blue;
 }
+
+/* banner-section */
+.banner {
+  display: flex;
+  justify-content: space-between;
+  margin: 130px auto;
+  padding: 0px 100px;
+}
+.banner-left {
+  width: 500px;
+  height: 500px;
+}
+.banner-title {
+  font-size: 2.3rem;
+  font-weight: bold;
+  color: #f0933d;
+}
+.banner-header {
+  font-size: 1.6rem;
+  font-weight: 700;
+}
+.banner-describtion {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #3e3e3e;
+  text-align: justify;
+}
+.Download-CV button {
+  border: 2px solid #7cf03d;
+  border-radius: 7px;
+  padding: 10px 50px;
+  color: #1f242d;
+  background-color: #7cf03d;
+  font-weight: 700;
+  font-size: 16px;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.Download-CV button:hover {
+  color: #7cf03d;
+  background-color: #1f242d;
+  transition: 1s;
+}
+.banner-right {
+  width: 400px;
+  height: 400px;
+  background-image: url(shapes/Group\ 33080.png);
+  background-size: cover;
+  background-position: center;
+}
+.banner-right img {
+  border-radius: 50%;
+  width: 100%;
+  height: 100%;
+}
+.banner-right img:hover {
+  border: 10px solid blue;
+  box-shadow: 1px 0px 30px 4px #3349ff;
+}
