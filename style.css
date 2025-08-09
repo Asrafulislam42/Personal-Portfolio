@@ -459,3 +459,70 @@ svg {
 .project-card[for="card4"] {
   background-image: url("images/project4.png");
 }
+
+/* contacts-section  */
+.contacts {
+  max-width: 1440px;
+  margin: 100px auto;
+  padding: 0px 100px;
+}
+.contacts-header {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #3349ff;
+  text-align: center;
+}
+.section-frist {
+  background: #edf1f9;
+  display: flex;
+  align-items: center;
+  border-radius: 20px;
+  justify-content: space-between;
+  padding: 80px 30px;
+}
+.section-left img {
+  width: 100%;
+}
+.section-right {
+  width: 450px;
+}
+.section-form {
+  width: 400px;
+}
+.text-name input {
+  height: 60px;
+  width: 100%;
+  padding: 0px 30px;
+  margin-bottom: 20px;
+  outline: none;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid rgb(40, 220, 40);
+  background: #e5ecfb;
+}
+.text-area textarea {
+  height: 150px;
+  width: 100%;
+  font-size: 16px;
+  outline: none;
+  border-radius: 5px;
+  padding: 10px 30px;
+  margin-bottom: 20px;
+  border: 1px solid rgb(40, 220, 40);
+  background: #e5ecfb;
+}
+.btn-submit {
+  color: #fff;
+  border: none;
+  outline: none;
+  font-size: 1.8rem;
+  cursor: pointer;
+  border-radius: 5px;
+  padding: 13px 25px;
+  background: #f39c12;
+  box-shadow: 0px 5px 10px rgba(48, 68, 247, 0.6);
+  transition: 0.3s ease;
+}
+.btn-submit:hover {
+  background: #421cecf5;
+}
