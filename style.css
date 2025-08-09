@@ -198,6 +198,7 @@ main {
   padding-right: 15px;
   padding-bottom: 10px;
   background: #edf1f9;
+  border-radius: 15px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -525,4 +526,60 @@ svg {
 }
 .btn-submit:hover {
   background: #421cecf5;
+}
+
+/* footer-section */
+footer {
+  max-width: 1440px;
+  margin: 0px auto;
+  padding: 50px 100px;
+  display: flex;
+  justify-content: space-between;
+  background: #edf1f9;
+}
+.footer-left {
+  max-width: 350px;
+}
+.footer-header {
+  font-size: 2rem;
+  font-weight: bold;
+}
+.footer-describtion {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #3e3e3e;
+}
+.Quick {
+  display: flex;
+  flex-direction: column;
+}
+.Quick a {
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #00093c;
+}
+
+.share a {
+  height: 30px;
+  width: 30px;
+  border: 2px solid #3349ff;
+  display: inline-block;
+  border-radius: 50%;
+  color: #3349ff;
+  background-color: #e5ecfb;
+  transition: 0.5s;
+  cursor: pointer;
+  text-decoration: none;
+  text-align: center;
+}
+.share a:hover {
+  color: #1f242d;
+  background-color: #5fe418;
+  transition: 0.5s;
+}
+.footer-right p {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #4d88f4;
 }
