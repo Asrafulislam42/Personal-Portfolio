@@ -519,7 +519,7 @@ svg {
   font-size: 1.8rem;
   cursor: pointer;
   border-radius: 5px;
-  padding: 13px 25px;
+  padding: 10px 25px;
   background: #f39c12;
   box-shadow: 0px 5px 10px rgba(48, 68, 247, 0.6);
   transition: 0.3s ease;
@@ -942,5 +942,92 @@ footer {
   .share a {
     height: 25px;
     width: 25px;
+  }
+}
+
+/* responsive for large */
+@media screen and (min-width: 992px) and (max-width: 1100px) {
+  .banner {
+    margin: 130px auto;
+    padding: 0px 80px;
+  }
+  .banner-left {
+    width: 440px;
+    height: 440px;
+  }
+  .banner-title {
+    font-size: 2rem;
+  }
+  .banner-header {
+    font-size: 1.2rem;
+  }
+  .banner-describtion {
+    font-size: 0.9rem;
+  }
+  .Download-CV button {
+    padding: 10px 40px;
+  }
+  .banner-right {
+    width: 320px;
+    height: 320px;
+  }
+
+  /* about-section */
+  .about-contain {
+    padding: 0px 80px;
+  }
+  .about-left {
+    width: 350px;
+    height: 350px;
+  }
+  .about-left img {
+    width: 100%;
+    height: 100%;
+  }
+  .about-right {
+    width: 450px;
+    height: 450px;
+  }
+  .about-header {
+    font-size: 2rem;
+  }
+  .about-describtion,
+  .about-email,
+  .about-form {
+    font-size: 0.9rem;
+  }
+  /* skils-section */
+  .skills {
+    padding: 0px 80px;
+  }
+  /* project-section */
+
+  .project {
+    margin-top: 150px;
+  }
+  .input-p:checked + label {
+    width: 550px;
+  }
+
+  /* contacts-section  */
+  .contacts {
+    padding: 0px 80px;
+  }
+  .btn-submit {
+    font-size: 1.5rem;
+    padding: 9px 25px;
+  }
+
+  /* footer-section */
+  footer {
+    padding: 50px 80px;
+  }
+  .footer-left {
+    max-width: 350px;
+  }
+  .Quick a,
+  .footer-describtion,
+  .footer-right p {
+    font-size: 0.9rem;
   }
 }
