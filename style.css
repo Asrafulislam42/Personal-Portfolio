@@ -583,3 +583,364 @@ footer {
   font-weight: 600;
   color: #4d88f4;
 }
+
+/* responsive for mobile */
+@media screen and (max-width: 576px) {
+  nav {
+    padding: 0px 7px;
+  }
+  .navber-hearder {
+    font-size: 0.9rem;
+  }
+  ul {
+    gap: 2px;
+  }
+  ul a {
+    font-size: 0.6rem;
+  }
+  /* banner-section */
+  .banner {
+    flex-direction: column-reverse;
+    margin: 50px auto;
+    padding: 0px 15px;
+  }
+  .banner-left {
+    width: 100%;
+    height: 100%;
+  }
+  .banner-title {
+    text-align: center;
+    font-size: 1.3rem;
+    margin-top: 25px;
+  }
+  .banner-header {
+    text-align: center;
+    font-size: 0.9rem;
+  }
+  .banner-describtion {
+    font-size: 0.7rem;
+  }
+  .Download-CV {
+    text-align: center;
+  }
+  .Download-CV button {
+    border-radius: 7px;
+    padding: 7px 25px;
+    font-size: 14px;
+  }
+  .banner-right {
+    width: 80%;
+    height: 80%;
+    margin: 0px auto;
+  }
+  /* about-section */
+
+  .about-title {
+    font-size: 2rem;
+  }
+  .about-contain {
+    flex-direction: column;
+    margin: 60px auto;
+    padding: 0px 15px;
+  }
+  .about-left {
+    width: 80%;
+    height: 80%;
+    margin: 0px auto;
+  }
+  .about-left img {
+    width: 100%;
+    height: 100%;
+  }
+  .about-right {
+    width: 100%;
+    height: 100%;
+  }
+  .about-header {
+    text-align: center;
+    margin-top: 25px;
+    font-size: 1.3rem;
+  }
+  .about-describtion {
+    font-size: 0.7rem;
+  }
+  .about-email {
+    text-align: center;
+    font-size: 0.7rem;
+  }
+  .about-form {
+    text-align: center;
+    font-size: 0.7rem;
+  }
+  .btn {
+    text-align: center;
+  }
+  .btn button {
+    padding: 8px 25px;
+    font-size: 14px;
+  }
+
+  /* skils-section */
+  .skills {
+    margin: 50px auto;
+    padding: 0px 0px;
+  }
+  .skills-header {
+    font-size: 1.3rem;
+    margin-bottom: 50px;
+  }
+  .skills-main {
+    flex-direction: column;
+    padding-right: 0px;
+  }
+  .skills-container {
+    width: 100%;
+  }
+  .skill-box {
+    margin-top: 30px;
+    margin-bottom: 40px;
+  }
+
+  /* progress */
+  .skilla-progress {
+    gap: 3px;
+  }
+  .skill {
+    width: 100%;
+    height: 100%;
+  }
+
+  /* project-section */
+  .project {
+    display: none;
+  }
+
+  /* contacts-section  */
+  .contacts {
+    margin: 50px auto;
+    padding: 0px 0px;
+  }
+  .contacts-header {
+    font-size: 1.3rem;
+  }
+  .section-frist {
+    flex-direction: column;
+    padding: 0px 0px;
+  }
+  .section-left,
+  .section-right,
+  .section-form {
+    width: 100%;
+    height: 100%;
+  }
+  .section-left img {
+    width: 100%;
+    height: 100%;
+  }
+  .text-name input {
+    height: 40px;
+    width: 100%;
+    padding: 0px 10px;
+    font-size: 14px;
+  }
+  .text-area textarea {
+    height: 100px;
+    width: 100%;
+    font-size: 14px;
+    padding: 10px 10px;
+  }
+  .btn-submit {
+    font-size: 1rem;
+    padding: 8px 18px;
+    margin-bottom: 10px;
+  }
+
+  /* footer-section */
+  footer {
+    padding: 20px 0px;
+    flex-direction: column;
+  }
+  .footer-left {
+    max-width: 350px;
+  }
+  .footer-header {
+    font-size: 1.3rem;
+  }
+  .footer-describtion,
+  .Quick a,
+  .footer-right p {
+    font-size: 0.8rem;
+  }
+  .share a {
+    height: 25px;
+    width: 25px;
+  }
+}
+
+/* responsive for medium */
+@media screen and (min-width: 576px) and (max-width: 992px) {
+  nav {
+    padding: 0px 15px;
+  }
+  .navber-hearder {
+    font-size: 1.8rem;
+  }
+  ul a {
+    font-size: 1rem;
+  }
+  /* banner-section */
+  .banner {
+    flex-direction: column-reverse;
+    padding: 0px 50px;
+  }
+  .banner-left {
+    width: 100%;
+    height: 100%;
+  }
+  .banner-title,
+  .Download-CV {
+    text-align: center;
+  }
+  .banner-header {
+    font-size: 1.6rem;
+    text-align: center;
+  }
+  .banner-right {
+    width: 500px;
+    height: 500px;
+    margin: 0px auto;
+  }
+
+  /* main */
+  main {
+    max-width: 1440px;
+    margin: 0px auto;
+  }
+
+  /* about-section */
+  .about-contain {
+    flex-direction: column;
+    margin: 50px auto;
+    padding: 0px 50px;
+  }
+  .about-left {
+    margin: 0px auto;
+    width: 500px;
+    height: 500px;
+  }
+
+  .about-right {
+    width: 100%;
+    height: 100%;
+  }
+  .about-header {
+    text-align: center;
+    margin-top: 50px;
+  }
+
+  .about-email,
+  .about-form,
+  .btn {
+    text-align: center;
+  }
+
+  /* skils-section */
+  .skills {
+    padding: 0px 50px;
+  }
+
+  .skills-main {
+    flex-direction: column;
+    padding-right: 0px;
+  }
+  .skills-container {
+    width: 100%;
+  }
+
+  /* progress */
+  .skilla-progress {
+    gap: 20px;
+  }
+  .skill {
+    width: 100%;
+    height: 100%;
+  }
+
+  /* project-section */
+
+  .project {
+    margin-top: 100px;
+  }
+  .project-header {
+    margin-bottom: 40px;
+  }
+
+  .project-body {
+    height: 280px;
+  }
+
+  .input-p:checked + label {
+    width: 335px;
+  }
+
+  /* contacts-section  */
+  .contacts {
+    margin: 50px auto;
+    padding: 0px 50px;
+  }
+  .contacts-header {
+    font-size: 2.5rem;
+  }
+  .section-frist {
+    flex-direction: column;
+    padding: 30px 40px;
+  }
+  .section-left img {
+    width: 100%;
+    height: 100%;
+  }
+  .section-left,
+  .section-right,
+  .section-form {
+    width: 100%;
+    height: 100%;
+  }
+  .text-name input {
+    height: 40px;
+    width: 100%;
+    padding: 0px 10px;
+    font-size: 14px;
+  }
+  .text-area textarea {
+    height: 100px;
+    width: 100%;
+    font-size: 14px;
+    padding: 10px 10px;
+  }
+  .btn-submit {
+    font-size: 1rem;
+    padding: 8px 30px;
+    margin-bottom: 10px;
+  }
+
+  /* footer-section */
+  footer {
+    padding: 50px 20px;
+  }
+  .footer-left {
+    max-width: 290px;
+  }
+  .footer-header {
+    font-size: 1.6rem;
+  }
+  .Quick a,
+  .footer-describtion,
+  .footer-right p {
+    font-size: 0.8rem;
+  }
+
+  .share a {
+    height: 25px;
+    width: 25px;
+  }
+}
