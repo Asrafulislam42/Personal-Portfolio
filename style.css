@@ -560,6 +560,10 @@ footer {
   color: #00093c;
 }
 
+.Quick a:hover {
+  color: #3349ff;
+}
+
 .share a {
   height: 30px;
   width: 30px;
